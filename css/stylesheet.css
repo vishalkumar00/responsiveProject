@@ -1,0 +1,447 @@
+body, h1 {
+    margin: 0;
+  }
+body{
+    background-color: black;
+}
+#wrapper{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid rgb(192, 17, 17);
+    
+}
+nav{
+    background-color: #2C3333;
+    height: 60px;
+}
+header{
+   background-color: rgba(0, 0, 0, 0.628);
+    height: 60px;
+}
+header a{
+    color: white; 
+}
+header h1{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
+    text-align: center;
+    margin-top: 10px;
+}
+nav div{
+    display: inline-block;
+}
+nav button{
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+}
+
+.navbtn{
+    width: 120px;
+    height: 50px;
+    margin-top: 10px;
+    background-color: #2C3333;
+    border: none;
+    
+    
+}
+span{
+    color:#df133c;
+}
+.navbtn a{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+}
+hr{
+    margin: 0;
+    width: 100%;
+    height: .5px;  
+}
+.footerhr{
+    margin: 0;
+    margin-top: 2%; 
+}
+.dropdownmenu{
+    background: rgba(0, 0, 0, 0.8);
+    /* background: rgba(88, 2, 2, 0.1); */
+    width: 140px;
+    border-radius: 10px;
+}
+.dropdownmenu a{
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  background: transparent;
+  text-align: center;
+  font-size: larger;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+}
+.dropdownmenu{
+  display: none;
+  position: absolute;
+  /* background-color: #f1f1f1; */
+  min-width: 120px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  .searchbtn{
+    float: right;
+    width: 30px;
+    height: 38px;
+    margin-top: 10px;
+    /* box-shadow: 1px 1px rgb(239, 234, 234); */
+    background-color: #2C3333;
+    border: .5px solid white;
+}
+#search{
+    float: right;
+    height: 35px;
+    margin-top: 10px;
+    background-color: #2C3333;
+    border: none;
+    box-shadow: 1px 1px rgb(239, 234, 234);
+    color: white;
+    
+}
+#searchbar2{
+    width: 97%;
+    height: 35px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: #2C3333;
+    border: .5px solid #5c5f5f;
+    margin-top: 20px;
+}
+#category{
+    margin-top: 15px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    align-items: center;
+}
+.categorybtn{
+    background-color: #df133c;
+    border-radius: 2px;
+    border: none;
+    color: white;
+    height: 30px;
+    text-align: center;
+    display: inline-block;
+    box-shadow: 0px 0px 32px -10px #fe0000;
+    margin-left: 4px;
+    margin-right: 3px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    align-items: center;
+}
+#gridcontainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr ; 
+}
+
+.containerimgdiv{
+    max-width: 400px;
+    max-height: 300px;
+}
+.gridcontainerimg{
+    /* margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px; */
+    max-width: 400px;
+    max-height: 300px;
+}
+
+h3{
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+    font-weight: lighter;
+    text-align: center;
+}
+#pagenumberdiv{
+    width: 100;
+    background-color: black;
+    
+}
+#pagebtn1{
+    width: 40px;
+    height: 40px;
+    background-color: #df133c;
+    color: white;
+    border: none;
+    margin-left: 40%;
+}
+.pagebtn{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    color: black;
+    border: none;
+}
+p{
+    color: white;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: x-large;
+}
+.footerdiv h2 {
+    color: white;
+    text-transform:uppercase ;
+    font-size: larger;
+    align-items: center;
+}
+.footerdiv a {
+    color: white;
+    text-transform:uppercase;
+    
+}
+.footerdiv li{
+    margin-bottom: 10px;
+}
+footer div{
+    display: inline-block;
+    width: 35%;
+}
+#copyright{
+    font-size: small;
+    
+}
+h1{
+    color: white;
+}
+
+#downloadimg{
+    width: 300px;
+    height: 500px;
+    margin-left: 35%;
+    margin-right: 35%; 
+     
+}
+#downloadserch{
+    width: 90%;
+    float: right;
+    height: 20px;
+}
+#item12{
+    display: inline-grid;
+    grid-template-columns: auto auto;
+}
+#item1 h4{
+    font-size: x-large;
+    text-align: center;
+}
+.downloadbtn{
+    width: 300px;
+    height: 35px;
+    background-color: cadetblue;
+    border-radius: 12px;
+    border: none;
+    margin-left: 33%;
+    margin-right: 33%;
+}
+
+.item2 {
+    width: 300px;
+    height: 100%;
+    background-color: #2e2c2c;
+  
+}
+.item2 *{
+    color: white;
+}
+.item2 li{
+    margin-top: 20px;
+    list-style:circle;
+}
+
+#item1 p {
+    color: white;
+}
+#item1 li {
+    color: white;
+    list-style: none;
+    font-size: x-large;
+    padding-top: 10px;
+}
+#item1 h4{
+    color: white;
+}
+h5{
+    color: white;
+    font-size: x-large;
+}
+.para{
+    font-size: medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+}
+
+table {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  table thead tr{
+    color: #eee;
+    background-color: rgb(229, 102, 11);
+  }
+  table tr:nth-child(even) td {
+    background-color: rgb(250, 169, 82);
+  }
+  table tr:nth-child(odd) td {
+    background-color: rgb(254, 255, 253);
+  }
+  table th,
+  table td {
+    padding-top:  5px;
+    padding-bottom: 5px;
+    text-align: center;
+  }
+
+  form {
+    width: 70%;
+    margin: 0 auto;
+    box-shadow: 0px 0px 2px #bbb;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 150px auto;
+    column-gap: 15px;
+    background-color: #2C3333;
+  }
+  label{
+    color: white;
+  }
+  label + * {
+    margin-bottom: 15px;
+    color: white;
+  }
+  input[type=submit] {
+    justify-self: start;
+  }
+  #submit{
+    background-color: rgb(223, 19, 60);
+    color: white;
+    border: none;
+  }
+  .dropdown:hover .dropdownmenu {display: block;}
+  #search:hover{
+    width: 250px;
+    cursor: pointer;
+  }
+  .searchbtn:hover{
+    background-color: red;
+    cursor: pointer;
+  }
+  .pagebtn:hover{
+    background-color: #df133c;
+    color: white;
+  }
+  h3:hover {
+    color: #df133c;
+  }
+  footer li:hover{
+    color: #df133c;
+    cursor: pointer;
+  }
+  header a:hover{
+    text-shadow:2px 2px#df133c; 
+    cursor: pointer;
+
+  }
+  .dropdownmenu a:hover{
+    color: #df133c;
+  }
+  @media (max-width: 760px){
+
+    nav{
+        display: none;
+    }
+    header h1{
+        margin-top: 10px;
+
+    }
+    #wrapper{
+        width: 100%;
+        border: none;
+    }
+    #searchbar2{
+        margin-bottom: 20px;
+        width: 97%;
+        clear: both;
+        margin-left: 5px;
+        margin-right: 3px;
+    }
+    #gridcontainer{
+        grid-template-columns: 1fr 1fr ;
+    grid-template-rows: auto ;
+    }
+    .containerimgdiv{
+        width: 200px;
+        max-height: 280px;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footerdiv{
+        width: 200px;  
+    }
+    .footerdiv h2{
+        align-items: center;
+        margin: 0;
+    }
+    
+    #pagenumberdiv{
+        display: flex;
+        flex-direction: row;
+        align-items: center; 
+    }
+    #pagebtn1{
+        margin-left: 20%;
+    }
+    .item2{
+        display: none;
+    }
+    .downloadbtn{
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    #downloadimg{
+        margin-left: 23%;
+    }
+    form {
+        width: 98%;
+        padding: 0;
+        border: none; 
+        grid-template-columns: 1fr;
+      }
+      input[type=submit] {
+        justify-self: stretch; 
+      }
+      table {
+        width: 98%;
+      }
+      hr {
+        margin-top: 2%;
+        margin-bottom: 2%;
+        width: 100%;
+    }
+    
+  }
+
+
+
